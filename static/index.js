@@ -190,3 +190,4 @@ $(function () {
         // radar.floatText(0, 10, "Update: " + socketUpdateCounter.getPerSec() + "ps");
     }
 });
+

@@ -269,3 +269,4 @@ Radar.prototype.lineWithAngle = function (x, y, length, width, angle, color) {
         return Math.atan2(interPt.y, interPt.x) * 180 / Math.PI;
     }
 }
+

